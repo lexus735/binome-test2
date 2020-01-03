@@ -1,14 +1,12 @@
 package fr.gtm.coucou;
 
 public class Foo {
- 
-	private String s;
-	
-	public Foo() {}
 
-	public String write(String s) {
-		return s;
-		
+	private int i;
+	public Foo() {}
+	public Foo(int i) {
+		super();
+		this.i = i;
 	}
 
 }
